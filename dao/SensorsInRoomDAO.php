@@ -18,6 +18,7 @@ class SensorsInRoomDAO
  
     
     public function showSensors($sensorInRoom) {
+		$this->con->options(MYSQLI_OPT_CONNECT_TIMEOUT, 500);
         $sql = "SELECT s.temperature,s.pm2,s.pm10,s.noise,s.co,s.co2,s.no2,s.humidity,s.device_serial_no
 				FROM trial_pollution s
 				INNER JOIN device_details d
@@ -34,31 +35,30 @@ class SensorsInRoomDAO
                 while($rowdata=mysqli_fetch_assoc($select)){
                     $sensorArray[]=$rowdata;         
                 }
-               //$sensordetail = new SensorSepration();
-               //$sensorArray = $sensordetail -> SensorsDetailsSeparation($sensorArray);
+				reset($sensorArray[0]);
+				$statusArray=array();
+				while(list($key, $value)= each($sensorArray[0])){
+					//echo "$key => $value";
+					$sensorName=$key;
+					$sensorValue=$value;
+                    if($sensorName!="device_serial_no"){
+					$queryOfStatus ="SELECT status,sensor_name,$sensorValue as value
+										FROM sensor_range 
+										WHERE  $sensorValue BETWEEN coalesce(`starting_point`,$sensorValue) AND coalesce(`Ending_point`,$sensorValue)
+										and sensor_name='$sensorName' ";																							 
+					$statusOutput = mysqli_query($this->con,$queryOfStatus);
+					while($rowdata=mysqli_fetch_assoc($statusOutput)){
+						$statusArray[]=$rowdata;         
+					}			
+				}else{
+				  break;
+				}
+				}               				
         } catch (Exception $e){
             echo'SQL Exception:'.$e->getMessage();
         }
-        return $sensorArray;
-    }
-	
-	 public function showSensorsStatus($sensorInRoom) {
-        $sql = "SELECT status
-					FROM sensor_range 
-					WHERE  ".$sensorInRoom->getValueOfSensor()." BETWEEN coalesce(`starting_point`,".$sensorInRoom->getValueOfSensor().") AND coalesce(`Ending_point`,".$sensorInRoom->getValueOfSensor().")
-					and sensor_name='".$sensorInRoom->getNameOfSensor()."' ";
-        
-        try {
-                $select= mysqli_query($this->con,$sql);
-                $sensorArray=array();
-                while($rowdata=mysqli_fetch_assoc($select)){
-                    $sensorArray[]=$rowdata;         
-                }        
-        } catch (Exception $e){
-            echo'SQL Exception:'.$e->getMessage();
-        }
-        return $sensorArray;
-    }
+        return $statusArray;
+    }	
 	
 	public function showSuggessionss($sensorInRoom) {
 		$this->con->options(MYSQLI_OPT_CONNECT_TIMEOUT, 500);
@@ -74,7 +74,7 @@ class SensorsInRoomDAO
 				WHERE d.user_room_no='".$sensorInRoom->getRoomno()."' AND u.email='".$sensorInRoom->getEmail()."' ";
 						
         try {
-                $select= mysqli_query($this->con,$sql);
+                 $select= mysqli_query($this->con,$sql);
 				$sensorAvgValue=array();
 				while($rowdata = mysqli_fetch_assoc($select)){
 					$sensorAvgValue[]=$rowdata;
@@ -94,7 +94,7 @@ class SensorsInRoomDAO
 					while($rowdata=mysqli_fetch_assoc($suggessionOutput)){
 						$suggessionArray[]=$rowdata;         
 					}			
-				}								
+				}							
         } catch (Exception $e){
             echo'SQL Exception:'.$e->getMessage();
         }

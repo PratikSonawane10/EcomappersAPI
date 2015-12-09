@@ -68,5 +68,21 @@ class SensorForGraphDAO
         }
         return $this->data;
     }
+	
+	 public function showPoints($sensPointRange) {
+        $sql = "SELECT starting_point,Ending_point
+					FROM sensor_range
+					WHERE sensor_name= '".$sensPointRange->getSensName()."' AND status='hazardous' ";
+        try {
+            $select = mysqli_query($this->con, $sql);
+            $this->data=array();
+            while ($rowdata = mysqli_fetch_assoc($select)) {
+                $this->data[]=$rowdata;
+            }
+        } catch(Exception $e) {
+            echo 'SQL Exception: ' .$e->getMessage();
+        }
+        return $this->data;
+    }
 }
 ?>

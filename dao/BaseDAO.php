@@ -2,7 +2,7 @@
 class BaseDAO {
     
     
-    private $db_host = '103.21.59.166:3306'; //hostname
+    private $db_host = 'localhost'; //hostname
     private $db_user = 'appcom_sensor'; // username
     private $db_password = 'sensor123'; // password
     private $db_name = 'appcom_sensor_data'; //database name

@@ -144,7 +144,7 @@ else if (isset($_GET['method'])) {
         $response['showSuggessionsResponse'] = $fetchSuggessionDetails -> showingSuggessionDetailsAsPerRoom($roomno, $email);
         deliver_response($_GET['format'], $response, false);
     }
-	else if (strcasecmp($_GET['method'], 'sensorStatus') == 0) {
+	/*else if (strcasecmp($_GET['method'], 'sensorStatus') == 0) {
         $response['code'] = 1;
         $response['status'] = $api_response_code[$response['code']]['HTTP Response'];
         $valueOfSensor = $_GET['valueOfSensor'];
@@ -152,7 +152,7 @@ else if (isset($_GET['method'])) {
         $fetchSensorStatus = new SensorsInRoom();
         $response['showStatusResponse'] = $fetchSensorStatus -> showingSensorStatusAsPerRoom($valueOfSensor, $nameOfSensor);
         deliver_response($_GET['format'], $response, false);
-    }
+    }*/
 	if (strcasecmp($_GET['method'],'userRooms')==0) {
 		$response['code']=1;
 		$response['status']=$api_response_code[$response['code']]['HTTP Response'];
@@ -173,7 +173,7 @@ else if (isset($_GET['method'])) {
         $response['showSensorDetailsResponse'] = $fetchSensorDetails -> showingSensorPointForGraph($fromDate, $toDate, $sensName, $email, $roomno);
         deliver_response($_GET['format'], $response, false);
     }
-	 if (strcasecmp($_GET['method'], 'defaultSensorGraph') == 0) {
+	else if (strcasecmp($_GET['method'], 'defaultSensorGraph') == 0) {
         $response['code'] = 1;
         $response['status'] = $api_response_code[$response['code']]['HTTP Response'];
 		$sensName = $_GET['nameOfSensor'];
@@ -181,6 +181,14 @@ else if (isset($_GET['method'])) {
 		$roomno = $_GET['roomno'];
         $fetchSensorDetails = new SensorForGraph();
         $response['showSensorDetailsResponse'] = $fetchSensorDetails -> showingSensorGraphDetails($sensName, $email, $roomno);
+        deliver_response($_GET['format'], $response, false);
+    }
+	else if (strcasecmp($_GET['method'], 'pointRangeForYAxis') == 0) {
+        $response['code'] = 1;
+        $response['status'] = $api_response_code[$response['code']]['HTTP Response'];
+		$sensName = $_GET['nameOfSensor'];
+        $fetchSensorPointsDetails = new SensorForGraph();
+        $response['showSensorPointsResponse'] = $fetchSensorPointsDetails -> showingPointRangeForYAxis($sensName);
         deliver_response($_GET['format'], $response, false);
     }
 }

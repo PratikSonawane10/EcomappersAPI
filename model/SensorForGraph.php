@@ -44,6 +44,7 @@ class SensorForGraph
         return $this->roomno;
     
 	}
+	
 	public function showingSensorGraphDetails($sensName, $email, $roomno) {
 		$this->setSensName($sensName);
 		$this->setEmail($email);
@@ -53,6 +54,12 @@ class SensorForGraph
         return $returnShowSensorPointDetails;
     }
     
+	public function showingPointRangeForYAxis($sensName) {
+		$this->setSensName($sensName);
+        $showSensorDetailsDAO = new SensorForGraphDAO();
+        $returnShowSensorPointDetails = $showSensorDetailsDAO->showPoints($this);
+        return $returnShowSensorPointDetails;
+    }
     
     public function showingSensorPointForGraph($fromDate, $toDate, $sensName, $email, $roomno) {
         $this->setFromDate($fromDate);

@@ -1,0 +1,108 @@
+[28-Nov-2015 10:30:39 Etc/GMT] PHP Notice:  Undefined index: time in /home/appcom/public_html/storage/ecoAPI/dev/api/sensorValueStoringAPI.php on line 113
+[05-Dec-2015 09:42:19 Etc/GMT] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '103.21.59.166:3306' (2) in /home/appcom/public_html/storage/ecoAPI/dev/dao/BaseDAO.php on line 13
+[05-Dec-2015 09:43:34 Etc/GMT] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '103.21.59.166:3306' (2) in /home/appcom/public_html/storage/ecoAPI/dev/dao/BaseDAO.php on line 13
+[05-Dec-2015 09:43:34 Etc/GMT] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '103.21.59.166:3306' (2) in /home/appcom/public_html/storage/ecoAPI/dev/dao/BaseDAO.php on line 13
+[05-Dec-2015 09:43:55 Etc/GMT] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '103.21.59.166:3306' (2) in /home/appcom/public_html/storage/ecoAPI/dev/dao/BaseDAO.php on line 13
+[05-Dec-2015 09:43:59 Etc/GMT] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '103.21.59.166:3306' (2) in /home/appcom/public_html/storage/ecoAPI/dev/dao/BaseDAO.php on line 13
+[05-Dec-2015 09:45:27 Etc/GMT] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '103.21.59.166:3306' (2) in /home/appcom/public_html/storage/ecoAPI/dev/dao/BaseDAO.php on line 13
+[05-Dec-2015 09:45:27 Etc/GMT] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '103.21.59.166:3306' (2) in /home/appcom/public_html/storage/ecoAPI/dev/dao/BaseDAO.php on line 13
+[05-Dec-2015 09:50:20 Etc/GMT] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '103.21.59.166:3306' (2) in /home/appcom/public_html/storage/ecoAPI/dev/dao/BaseDAO.php on line 13
+[05-Dec-2015 09:56:39 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[05-Dec-2015 10:32:42 Etc/GMT] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '103.21.59.166:3306' (2) in /home/appcom/public_html/storage/ecoAPI/dev/dao/BaseDAO.php on line 13
+[05-Dec-2015 12:19:23 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 06:50:03 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 06:59:47 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 07:01:55 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 07:54:18 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:22:42 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:22 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:23 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:27 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:30 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:31 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:33 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:36 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:37 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:38 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:42 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:49 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:50 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 09:23:52 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 13:17:24 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 13:23:26 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 13:23:32 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[07-Dec-2015 13:23:34 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 04:47:08 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 04:47:13 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 04:47:15 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 04:47:17 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:21:45 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:22:25 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:22:30 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:23:19 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:24:32 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:24:36 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:24:37 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:24:38 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:24:39 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:25:00 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:25:12 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:25:50 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:32:38 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:32:47 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:32:51 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:32:57 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:32:58 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:33:00 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:42:06 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 05:52:23 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 06:18:36 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 09:33:21 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 09:33:26 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 09:33:35 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 09:33:49 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 09:33:51 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[08-Dec-2015 11:35:46 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 54
+[09-Dec-2015 04:56:44 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 76
+[09-Dec-2015 04:57:24 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 76
+[09-Dec-2015 04:57:27 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 76
+[09-Dec-2015 04:58:49 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 76
+[09-Dec-2015 06:20:57 Etc/GMT] PHP Notice:  Undefined index: nameOfSensor in /home/appcom/public_html/storage/ecoAPI/dev/api/ecomappersapi.php on line 179
+[09-Dec-2015 06:20:57 Etc/GMT] PHP Notice:  Undefined index: roomno in /home/appcom/public_html/storage/ecoAPI/dev/api/ecomappersapi.php on line 181
+[09-Dec-2015 11:50:57 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorForGraphDAO.php on line 35
+[09-Dec-2015 09:25:10 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:25:10 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 09:25:29 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:25:29 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 09:29:18 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:29:18 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 09:30:45 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:30:45 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 09:31:14 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:31:14 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 09:35:02 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:35:02 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 09:36:05 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:36:05 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 09:42:26 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:42:26 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 09:42:51 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:42:51 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 09:44:28 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:44:28 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 09:46:43 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:46:43 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 09:47:20 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:47:20 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 09:47:55 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 09:47:55 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 10:25:05 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 10:25:05 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 10:28:27 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 10:28:27 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 10:33:47 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 10:33:47 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 10:35:48 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 10:35:48 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40
+[09-Dec-2015 10:36:48 Etc/GMT] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 38
+[09-Dec-2015 10:36:48 Etc/GMT] PHP Warning:  Variable passed to each() is not an array or object in /home/appcom/public_html/storage/ecoAPI/dev/dao/SensorsInRoomDAO.php on line 40

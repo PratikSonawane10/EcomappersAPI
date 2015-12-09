@@ -13,6 +13,8 @@ class UserLoginDAO
     }
     
     public function login($checkLogin){
+    	
+	$this->con->options(MYSQLI_OPT_CONNECT_TIMEOUT, 500);		
         $sql="SELECT * FROM user_login WHERE email='".$checkLogin->getUserName()."' and password='".$checkLogin->getPassword()."'";
         try{
             $login=mysqli_query($this->con,$sql);
