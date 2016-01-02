@@ -28,11 +28,13 @@ $queryOfDeviceNo = "SELECT DISTINCT device_serial_no FROM trial_pollution";
          $isAvarage = mysqli_query($con,$queryOfAVG);
 		 $avgValue = mysqli_fetch_row($isAvarage);
          $COAvgValue = $avgValue[0];
+		 date_default_timezone_set('Asia/Kolkata');
+			$currentDateTime = date("Y-m-d H:i:s");
 		 
                 $count=mysqli_num_rows($isAvarage);
                 if($count==1) {
                     $con->options(MYSQLI_OPT_CONNECT_TIMEOUT, 500);
-                    $query = "INSERT INTO sensorAverage(co,device_serial_no) VALUES ('$COAvgValue','$deviceSerailNo') ";
+                    $query = "INSERT INTO sensorAverage(co,device_serial_no,time) VALUES ('$COAvgValue','$deviceSerailNo','$currentDateTime') ";
 					$isInserted = mysqli_query($con,$query);						
 						if($isInserted) {
 							echo "inserted";
